@@ -1,113 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>exercise-02</title>
-    <link rel="stylesheet" href="makaraStyle.css">
+    <link rel="stylesheet" href="makaraStyle.css" />
 </head>
 <body>
-    <header>
+
+<header>
     <div class="container">
         <div class="filter-buttons">
-            <button class="filter-button active" data-filter>all</button>
-            <button class="filter-button" data-filter>Landscape</button>
-            <button class="filter-button" data-filter>portrait</button>
-            <button class="filter-button" data-filter>architecture</button>
-        </div>
-    </header>
-        <div class="gallery">
-            <div class="gallery-item Landscape">
-                <img src="https://cdn.pixabay.com/photo/2017/10/10/07/48/hills-2836301_1280.jpg" alt="Hills">
-            </div class= "overlay">
-                <div class="text">
-                    <h3>Hills</h3>
-                    <span class="categoty">Landscape</span>
-                    <p>A beautiful view of the hills</p>
-                </div>
-        </div>
-        <div class="gallery">
-            <div class="gallery-item Landscape">
-                <img src="https://cdn.pixabay.com/photo/2013/02/20/11/30/autumn-83761_1280.jpg" alt="autamn leaves">
-            </div class= "overlay">
-                <div class="text">
-                    <h3>autamn leaves</h3>
-                    <span class="categoty">Landscape</span>
-                    <p>A beautiful cycle of life</p>
-                </div>
-        </div><div class="gallery">
-            <div class="gallery-item Landscape">
-                <img src="https://cdn.pixabay.com/photo/2023/04/01/07/21/winter-landscape-7891462_1280.jpg" alt="winter landscape">
-            </div class= "overlay">
-                <div class="text">
-                    <h3>winter landscape</h3>
-                    <span class="categoty">Landscape</span>
-                    <p>The magnificent show of nature in winter</p>
-                </div>
-        </div>
-        <div class="gallery">
-            <div class="gallery-item portrait">
-                <img src="https://cdn.pixabay.com/photo/2020/10/06/17/31/horse-5632882_1280.jpg" alt="Horse">
-            </div class= "overlay">
-                <div class="text">
-                    <h3>Horse</h3>
-                    <span class="categoty">portrait</span>
-                    <p>The eye of a horse</p>
-                </div>
-        </div>
-        <div class="gallery">
-            <div class="gallery-item portrait">
-                <img src="https://cdn.pixabay.com/photo/2016/11/21/14/47/kitten-1845789_1280.jpg" alt="cute cat">
-            </div class= "overlay">
-                <div class="text">
-                    <h3>cute cat</h3>
-                    <span class="categoty">portrait</span>
-                    <p>The cute cat</p>
-                </div>
-        </div>
-        <div class="gallery">
-            <div class="gallery-item portrait">
-                <img src="https://cdn.pixabay.com/photo/2018/01/15/08/34/woman-3083453_1280.jpg" alt="Woman">
-            </div class= "overlay">
-                <div class="text">
-                    <h3>Woman</h3>
-                    <span class="categoty">portrait</span>
-                    <p>The portrait of a woman</p>
-                </div>
-        </div>
-        <div class="gallery">
-            <div class="gallery-item architecture">
-                <img src="https://cdn.pixabay.com/photo/2025/05/13/07/41/architecture-9596799_1280.jpg" alt="architecture church">
-            </div class= "overlay">
-                <div class="text">
-                    <h3>architecture church</h3>
-                    <span class="categoty">architecture</span>
-                    <p>A beautifully structured church</p>
-                </div>
-        </div>
-        <div class="gallery">
-            <div class="gallery-item architecture">
-                <img src="https://cdn.pixabay.com/photo/2020/03/26/15/06/scotland-4970689_1280.jpg" alt="scotland edinburgh">
-            </div class= "overlay">
-                <div class="text">
-                    <h3>scotland edinburgh</h3>
-                    <span class="categoty">architecture</span>
-                    <p>a beautiful building</p>
-                </div>
-        </div>
-        <div class="gallery">
-            <div class="gallery-item architecture">
-                <img src="https://cdn.pixabay.com/photo/2024/11/26/18/50/skyscraper-9226515_1280.jpg" alt="skyscraper">
-            </div class= "overlay">
-                <div class="text">
-                    <h3>skyscraper architecture</h3>
-                    <span class="categoty">architecture</span>
-                    <p>A huge skyscraper</p>
-                </div>
+            <button class="filter-button active" data-filter="all">All</button>
+            <button class="filter-button" data-filter="landscape">Landscape</button>
+            <button class="filter-button" data-filter="portrait">Portrait</button>
+            <button class="filter-button" data-filter="architecture">Architecture</button>
         </div>
     </div>
-    <footer>
-        <p>&copy; 2025  Makara Gallery. All rights reserved</p>
-    </footer>
+</header>
+
+<div class="container">
+    <div class="gallery">
+        <!-- Sample gallery item -->
+        <div class="gallery-item landscape">
+            <img src="https://cdn.pixabay.com/photo/2017/10/10/07/48/hills-2836301_1280.jpg" alt="Hills" />
+            <div class="overlay">
+                <div class="text">
+                    <h3>Hills</h3>
+                    <span class="category">Landscape</span>
+                    <p>A beautiful view of the hills</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item landscape">
+            <img src="https://cdn.pixabay.com/photo/2013/02/20/11/30/autumn-83761_1280.jpg" alt="Autumn Leaves" />
+            <div class="overlay">
+                <div class="text">
+                    <h3>Autumn Leaves</h3>
+                    <span class="category">Landscape</span>
+                    <p>A beautiful cycle of life</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item landscape">
+            <img src="https://cdn.pixabay.com/photo/2023/04/01/07/21/winter-landscape-7891462_1280.jpg" alt="Winter Landscape" />
+            <div class="overlay">
+                <div class="text">
+                    <h3>Winter Landscape</h3>
+                    <span class="category">Landscape</span>
+                    <p>The magnificent show of nature in winter</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item portrait">
+            <img src="https://cdn.pixabay.com/photo/2020/10/06/17/31/horse-5632882_1280.jpg" alt="Horse" />
+            <div class="overlay">
+                <div class="text">
+                    <h3>Horse</h3>
+                    <span class="category">Portrait</span>
+                    <p>The eye of a horse</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item portrait">
+            <img src="https://cdn.pixabay.com/photo/2016/11/21/14/47/kitten-1845789_1280.jpg" alt="Cute Cat" />
+            <div class="overlay">
+                <div class="text">
+                    <h3>Cute Cat</h3>
+                    <span class="category">Portrait</span>
+                    <p>The cute cat</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item portrait">
+            <img src="https://cdn.pixabay.com/photo/2018/01/15/08/34/woman-3083453_1280.jpg" alt="Woman" />
+            <div class="overlay">
+                <div class="text">
+                    <h3>Woman</h3>
+                    <span class="category">Portrait</span>
+                    <p>The portrait of a woman</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item architecture">
+            <img src="https://cdn.pixabay.com/photo/2025/05/13/07/41/architecture-9596799_1280.jpg" alt="Architecture Church" />
+            <div class="overlay">
+                <div class="text">
+                    <h3>Architecture Church</h3>
+                    <span class="category">Architecture</span>
+                    <p>A beautifully structured church</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item architecture">
+            <img src="https://cdn.pixabay.com/photo/2020/03/26/15/06/scotland-4970689_1280.jpg" alt="Scotland Edinburgh" />
+            <div class="overlay">
+                <div class="text">
+                    <h3>Scotland Edinburgh</h3>
+                    <span class="category">Architecture</span>
+                    <p>A beautiful building</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item architecture">
+            <img src="https://cdn.pixabay.com/photo/2024/11/26/18/50/skyscraper-9226515_1280.jpg" alt="Skyscraper" />
+            <div class="overlay">
+                <div class="text">
+                    <h3>Skyscraper Architecture</h3>
+                    <span class="category">Architecture</span>
+                    <p>A huge skyscraper</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p style="text-align:center; margin: 30px 0;">&copy; 2025 Makara Gallery. All rights reserved.</p>
+</footer>
+
+<script>
+    const buttons = document.querySelectorAll('.filter-button');
+    const items = document.querySelectorAll('.gallery-item');
+
+    buttons.forEach(button => {
+        button.addEventListener('click', () => {
+            
+            buttons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+
+            const filter = button.getAttribute('data-filter');
+
+            items.forEach(item => {
+                if (filter === 'all' || item.classList.contains(filter)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    });
+</script>
+
 </body>
 </html>
+
+            
